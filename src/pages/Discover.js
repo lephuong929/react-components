@@ -52,7 +52,11 @@ class Discover extends Component {
   render() {
     return (
       <div>
-        <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
+        <Card image={this.state.image} handleBtnClick={this.handleBtnClick}>
+          
+
+        </Card>
+        
         
       </div>
     );

@@ -52,10 +52,9 @@ import "./Navbar.css";
 const Navbar = () => (
   <div class="container">
     <nav class="navbar fixed-top justify-content-center">
-      <a class="navbar-brand" href="#">
-      <img src="../images/logo4.png" alt="shitlogo"/>
-      </a>
+      <img src={require("./logo4.png")} alt="logo" className="navbar fixed-top justify-content-center"/>
     </nav>
+
   </div>
 
 );

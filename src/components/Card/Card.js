@@ -1,6 +1,7 @@
 import React from "react";
 import CardBtn from "../CardBtn";
 import "./Card.css";
+import Button from "../Button";
 
 const Card = props => (
 <div className="card">
@@ -12,7 +13,7 @@ const Card = props => (
     <p className="card-text">Demographic: 23-30</p>
   </div>
   {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
-
+  <Button/>
 </div>
 );
 
